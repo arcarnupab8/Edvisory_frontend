@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.userProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.userProfile > img{
+    width: 40%;
+    height: 50%;
+}
+.userProfile > img:hover{
+    cursor: pointer;
+}
+
+
+.menu{
+    position: absolute;
+    right: 3%;
+    top: 7%;
+    background: white;
+    width: 4%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.menu > div{
+    width: 100%;
+}
+.menu > div:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}

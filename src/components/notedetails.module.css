@@ -1,0 +1,44 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; 
+}
+
+.content > div{
+    margin: 10px 0px;
+}
+
+.conts > label, .details p > label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title{
+    display: flex;
+}
+.title > img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.conts > div{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.details{
+    display: flex;
+}
+.details > p{
+    margin: 0px 10px;
+}

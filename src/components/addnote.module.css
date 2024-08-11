@@ -1,0 +1,64 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+.headTitle{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.headTitle img{
+    width: 8%;
+    height: 8%;
+    margin-right: 10px;
+}
+.headTitle img{
+    cursor: pointer;
+}
+
+.inputContent{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+.inputContent > div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.inputContent div > input, .inputContent div > textarea{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.groupContainer{
+    margin-top: 10px;
+}
+.groupContainer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.groupContainer div > select, .groupContainer div > input{
+    margin: 10px 10px;
+}
+
+.submit > input{
+    background: #3D6CB4;
+    color: white;
+    height: 30px;
+    border: none;
+}

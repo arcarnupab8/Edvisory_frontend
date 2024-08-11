@@ -1,0 +1,27 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+}
+.title > img:hover{
+    cursor: pointer;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid ;
+}
